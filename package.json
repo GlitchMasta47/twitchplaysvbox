@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/GlitchMasta47/twitchplaysvbox#readme",
   "dependencies": {
+    "bunyan": "^1.8.15",
     "soap": "^0.40.0",
     "tmi.js": "^1.8.3",
     "toml": "^3.0.0"
