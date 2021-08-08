@@ -1,8 +1,7 @@
-const bunyan = require('bunyan');
-const logger = bunyan.createLogger({ name: 'twitchplaysvbox' });
+const logger = require('./src/logger')('info'); // change this line if you want a different logging level (I swear I'll make it better soon:tm:)
 
 // trick to use mainly async code
-require('./src')(logger)
+require('./src')()
   .then(() => {
     logger.info('Main function finished, now quitting');
   })
