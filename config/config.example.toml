@@ -3,6 +3,7 @@
 
 [virtualbox]
     url = "http://localhost:18083" # the url of the running vboxwebsrv
+    vmname = "" # the name of the virtual machine you want to control
     # (if your authentication method is set to null, the username and password are not required)
     username = "" # the username to use to log in (if authentication is required)
     password = "" # the password to use to log in (if authentication is required)
