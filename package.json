@@ -1,0 +1,23 @@
+{
+  "name": "twitchplaysvbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GlitchMasta47/twitchplaysvbox.git"
+  },
+  "author": "GlitchMasta47",
+  "bugs": {
+    "url": "https://github.com/GlitchMasta47/twitchplaysvbox/issues"
+  },
+  "homepage": "https://github.com/GlitchMasta47/twitchplaysvbox#readme",
+  "dependencies": {
+    "soap": "^0.40.0",
+    "tmi.js": "^1.8.3",
+    "toml": "^3.0.0"
+  }
+}
